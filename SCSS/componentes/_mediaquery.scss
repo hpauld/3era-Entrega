@@ -2,9 +2,13 @@
 @media screen and (max-width: 900px) {
     header {
         flex-direction: column;
+        align-items: center;
         height: auto;
         justify-content: center;
+
+
     }
+
 
     .menu_items li {
         padding: 5px;
@@ -28,21 +32,59 @@
 }
 
 @media screen and (max-width: 560px) {
-
-    .menu_items {
-        flex-direction: column;
-        padding: 15px;
-    }
-
     header {
-        padding-top: 10px;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .bar-btn {
+            display: block;
+            font-size: 25px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
     }
 
-    .menu_items li {
-        padding: 5px;
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 70px;
+        background: rgba(0, 0, 0, .95);
+        text-align: center;
+        transition: all .5s;
 
+
+        .menu_items {
+            flex-direction: column;
+
+            li{
+                display: none;
+                line-height: 30px;
+                margin: 30px 0;
+                transition: all .5s;
+            }
+
+            a {
+                color: wheat;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            li a.active, li a:hover{
+                color: rgb(248, 8, 8);
+                transition: .3s;
+            }
+        }
     }
+    #check:checked ~ nav{
+        height: 100vh;
+    }
+    #check:checked ~ nav li{
+        display: block;
+    }
+
 
     .textos_seccion1 {
         margin-top: 100px;
