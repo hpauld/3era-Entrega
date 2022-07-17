@@ -98,6 +98,7 @@ footer {
   align-items: end;
   width: 100%;
   height: 600px;
+  padding-top: 80px;
   background-image: url(../Multimedia/FondoSeccion_1.jpg);
   font-size: 30px;
   font-weight: 300;
@@ -403,6 +404,7 @@ span {
 }
 @media screen and (max-width: 560px) {
   header {
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
