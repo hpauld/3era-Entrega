@@ -425,7 +425,8 @@ span {
     text-transform: uppercase;
     font-weight: 600;
   }
-  nav .menu_items li a.active, nav .menu_items li a:hover {
+  nav .menu_items li a.active,
+nav .menu_items li a:hover {
     color: rgb(248, 8, 8);
     transition: 0.3s;
   }
@@ -453,7 +454,7 @@ span {
     width: 300px;
   }
   .servicios {
-    padding-top: 300px;
+    padding-top: 80px;
   }
   .producto {
     flex-direction: column;
@@ -463,15 +464,17 @@ span {
     width: auto;
   }
   .productos {
-    padding-top: 300px;
+    padding-top: 80px;
   }
   .contacto {
     flex-direction: column;
-    padding-top: 300px;
+    padding-top: 80px;
+  }
+  .mapa_contacto {
+    padding: 0;
   }
   .mapa_contacto iframe {
     width: 100%;
-    justify-content: center;
   }
 }
 
