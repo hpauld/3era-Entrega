@@ -261,9 +261,8 @@ button {
   margin-left: 30px;
 }
 
-/* Inicio estilos pagina servicios */
 .servicios {
-  width: 80%;
+  width: 100vw;
   margin: 0 auto;
   padding: 120px 0 20px;
 }
@@ -292,8 +291,8 @@ span {
 }
 
 .producto_img img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 15%;
   padding: 15px;
   object-fit: cover;
@@ -342,7 +341,6 @@ span {
   transform: scale(1.1);
 }
 
-/* Inicio estilos pagina Contacto */
 .contacto {
   display: flex;
   justify-content: center;
@@ -364,7 +362,6 @@ span {
   padding-bottom: 15px;
 }
 
-/* Medias query*/
 @media screen and (max-width: 900px) {
   header {
     flex-direction: column;
@@ -386,6 +383,22 @@ span {
   }
   .img_nosotros {
     margin: 0 auto;
+  }
+  .mapa_contacto {
+    padding: 10px;
+  }
+  .mapa_contacto iframe {
+    width: 100%;
+  }
+  .parrafo_producto {
+    width: 100vw;
+    padding: 15px;
+  }
+  .texto_contacto {
+    width: 50%;
+  }
+  .producto {
+    width: 100%;
   }
 }
 @media screen and (max-width: 560px) {

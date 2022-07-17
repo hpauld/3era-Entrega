@@ -1,4 +1,3 @@
-/* Medias query*/
 @media screen and (max-width: 900px) {
     header {
         flex-direction: column;
@@ -26,11 +25,33 @@
     .img_nosotros {
         margin: 0 auto;
     }
+
+    .mapa_contacto {
+        padding: 10px;
+
+        iframe {
+            width: 100%;
+        }
+    }
+
+    .parrafo_producto {
+        width: 100vw;
+        padding: 15px;
+
+    }
+
+    .texto_contacto {
+        width: 50%;
+    }
+
+    .producto{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 560px) {
     header {
-        display: flex;
+         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;

@@ -1,7 +1,5 @@
-/* Inicio estilos pagina servicios */
-
 .servicios {
-    width: 80%;
+    width: 100vw;
     margin: 0 auto;
     padding: 120px 0 20px;
 }
@@ -32,7 +30,7 @@ span {
 }
 
 .producto_img img {
-    @include imagenes(200px,200px,15%);
+    @include imagenes(300px,300px,15%);
     padding: 15px;
     object-fit: cover;
 }
