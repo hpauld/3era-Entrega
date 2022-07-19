@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 @import './Variables/color';
 @import './Variables/fonts';
 @import './Variables/Mapas';
@@ -13,7 +14,6 @@
 body {
     background: $colorFondo;
     font-family: $fuentePrincipal;
-    width: auto;
 }
 
 @import './componentes/header';
