@@ -16,7 +16,17 @@
     border-radius: 30px;
 }
 
-.texto_contacto h1 {
-    padding-bottom: 15px;
+.texto_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    h1{
+        padding-bottom: 10px;
+    }
 
+    i{
+        padding: 5px;  
+    }
 }
+
